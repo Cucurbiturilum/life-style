@@ -1,0 +1,148 @@
+$main-font: 'Raleway', sans-serif;
+$font-color: #313131;
+$active-color: #ffb79b;
+
+
+header {
+  border-bottom: 1px solid #cecece;
+  box-shadow: 0 3px 5px 0 rgba(206, 206, 206, 1);
+
+  nav {
+    .dropdown {
+      border-left: 1px solid #cecece;
+      border-right: 1px solid #cecece;
+      color: $font-color;
+      padding: 0.6rem 0;
+
+      .btn {
+        box-shadow: none;
+      }
+
+      .dropdown-menu {
+        border: none;
+        min-width: 15rem;
+        background-color: transparent;
+        @media (min-width: 768px) {
+          min-width: 20rem;
+        }
+
+        .form-inline {
+          background-color: #fff;
+          border-radius: 5px;
+          border: 1px solid #cecece;
+
+          .form-control {
+            width: 80%;
+            border: none;
+            box-shadow: none;
+          }
+
+          .btn, &:active {
+            width: 20%;
+            border: none;
+            color: $font-color;
+            font-size: 1.1rem;
+            background-color: #fff;
+            box-shadow: none;
+          }
+        }
+      }
+    }
+
+    .submit {
+      height: 100%;
+      border-right: 1px solid #cecece;
+      border-radius: 0;
+      color: $font-color;
+      font-family: $main-font;
+    }
+
+    .navbar-collapse {
+      @media (max-width: 990px) {
+        border-top: 1px solid #cecece;
+      }
+
+      .navbar-nav {
+        .nav-item {
+          padding: 0 0.2rem;
+
+          .nav-link {
+            font-family: $main-font;
+            color: $font-color;
+            font-weight: 600;
+            font-size: 0.75rem;
+            @media (min-width: 990px) and (max-width: 1200px) {
+              font-size: 0.6rem;
+            }
+
+            &:hover {
+              color: $active-color;
+            }
+          }
+        }
+      }
+    }
+
+    .social {
+      div {
+        border-right: 1px solid #cecece;
+        padding: 1rem 1rem;
+        vertical-align: middle;
+
+        &:first-of-type {
+          border-left: 1px solid #cecece;
+        }
+
+        a {
+          i {
+            color: $font-color;
+            font-size: 1.2rem;
+
+            &:hover {
+              color: $active-color;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
+
+.carousel-title {
+  margin-bottom: 2rem;
+
+  .carousel-inner {
+    max-height: 34rem;
+
+    .carousel-item {
+      img {
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+.posts {
+  .title {
+    margin-bottom: 2rem;
+    font-family: $main-font;
+    color: $font-color;
+    font-size: 1.375rem;
+
+    &:after {
+      content: "";
+      border-bottom: 2px solid $active-color;
+      width: 11rem;
+      display: block;
+      margin-bottom: -1px;
+    }
+  }
+
+  .post {
+    .card-img-top {
+      max-height: 23rem;
+      object-fit: cover;
+    }
+  }
+}
