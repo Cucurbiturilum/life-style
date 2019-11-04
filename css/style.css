@@ -1,0 +1,159 @@
+body {
+  background-color: #f7f7f7;
+}
+body header {
+  border-bottom: 1px solid #cecece;
+  box-shadow: 0 3px 5px 0 #cecece;
+}
+body header nav .dropdown {
+  border-left: 1px solid #cecece;
+  border-right: 1px solid #cecece;
+  color: #313131;
+  padding: 0.6rem 0;
+}
+body header nav .dropdown .btn {
+  box-shadow: none;
+}
+body header nav .dropdown .dropdown-menu {
+  border: none;
+  min-width: 15rem;
+  background-color: transparent;
+}
+@media (min-width: 768px) {
+  body header nav .dropdown .dropdown-menu {
+    min-width: 20rem;
+  }
+}
+body header nav .dropdown .dropdown-menu .form-inline {
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #cecece;
+}
+body header nav .dropdown .dropdown-menu .form-inline .form-control {
+  width: 80%;
+  border: none;
+  box-shadow: none;
+}
+body header nav .dropdown .dropdown-menu .form-inline .btn, body header nav .dropdown .dropdown-menu .form-inline:active {
+  width: 20%;
+  border: none;
+  color: #313131;
+  font-size: 1.1rem;
+  background-color: #fff;
+  box-shadow: none;
+}
+body header nav .submit {
+  height: 100%;
+  border-right: 1px solid #cecece;
+  border-radius: 0;
+  color: #313131;
+  font-family: "Raleway", sans-serif;
+}
+@media (max-width: 990px) {
+  body header nav .navbar-collapse {
+    border-top: 1px solid #cecece;
+  }
+}
+body header nav .navbar-collapse .navbar-nav .nav-item {
+  padding: 0 0.2rem;
+}
+body header nav .navbar-collapse .navbar-nav .nav-item .nav-link {
+  font-family: "Raleway", sans-serif;
+  color: #313131;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+  body header nav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    font-size: 0.6rem;
+  }
+}
+body header nav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #ffb79b;
+}
+body header nav .social div {
+  border-right: 1px solid #cecece;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+body header nav .social div:first-of-type {
+  border-left: 1px solid #cecece;
+}
+body header nav .social div a i {
+  color: #313131;
+  font-size: 1.2rem;
+}
+body header nav .social div a i:hover {
+  color: #ffb79b;
+}
+body .carousel-title {
+  margin-bottom: 2rem;
+}
+body .carousel-title .carousel-inner {
+  max-height: 34rem;
+}
+body .carousel-title .carousel-inner .carousel-item img {
+  object-fit: cover;
+}
+body .posts .title {
+  margin-bottom: 2rem;
+  font-family: "Raleway", sans-serif;
+  color: #313131;
+  font-size: 1.375rem;
+}
+body .posts .title:after {
+  content: "";
+  border-bottom: 2px solid #ffb79b;
+  width: 11rem;
+  display: block;
+  margin-bottom: -1px;
+}
+body .posts .post {
+  border: none;
+}
+body .posts .post a {
+  top: 0;
+  left: 0;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #ffb79b;
+}
+body .posts .post a:hover {
+  text-decoration: none;
+}
+body .posts .post a i {
+  color: #fff;
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+}
+body .posts .post .card-img-top {
+  max-height: 23rem;
+  object-fit: cover;
+  border-radius: 0;
+}
+body .posts .post .card-header {
+  padding: 2.5rem 1.75rem 1.75rem 1.75rem;
+  background-color: #fff;
+}
+body .posts .post .card-header:after {
+  content: "";
+  border-bottom: 2px solid #ffb79b;
+  width: 11rem;
+  display: block;
+  margin-bottom: -1px;
+}
+body .posts .post .card-header .card-title {
+  color: #313131;
+  font-size: 1.1rem;
+  margin-bottom: 1.25rem;
+}
+body .posts .post .card-header .card-subtitle {
+  font-size: 0.7rem;
+  color: #313131;
+}
+body .posts .post .card-header .card-subtitle .card-link {
+  color: #ffb79b;
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=style.css.map */
